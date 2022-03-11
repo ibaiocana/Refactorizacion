@@ -8,7 +8,7 @@ public class Refactorizacion {
         v[1] = 4;
         v[2] = 6;
         Prueba p = new Prueba();
-        p.valor = 10;
+        p.setValor(10);
         p.modificar(v, 0, 1);
         p.borrar(v, 0, 1);
         p.insertar(v, 0, 1);
