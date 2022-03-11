@@ -25,11 +25,7 @@ public class Prueba {
             }
             
             //Mostramos los elementos del array
-            System.out.print("v={");
-            for (i = 0; i < longitud; i++) {
-                System.out.print(vector[i] + ",");
-            }
-            System.out.println("}");
+            Visualizar(i, longitud, vector);
         }
     
     public void borrar(int[] vector, int LongitudActual) {
@@ -53,11 +49,7 @@ public class Prueba {
         }
         
         //Mostramos los elementos del array
-        System.out.print("v={");
-        for (i = 0; i < longitud; i++) {
-            System.out.print(vector[i] + ",");
-        }
-        System.out.println("}");
+        Visualizar(i, longitud, vector);
     }
 
     public void insertar(int[] vector, int LongitudActual) {
@@ -81,6 +73,10 @@ public class Prueba {
             vector[posicion] = this.valor;
         }
         
+        Visualizar(i, longitud, vector);
+    }
+
+    public void Visualizar(int i, final int longitud, int[] vector) {
         //Mostramos los elementos del array
         System.out.print("v={");
         for (i = 0; i < longitud; i++) {
