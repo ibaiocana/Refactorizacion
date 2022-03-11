@@ -4,7 +4,7 @@ public class Prueba {
     public int valor;
         //metodo que modifica el contenido de la posicion p de un array con el valor pasado
 
-        public void modificar(int[] vector) {
+        public void modificar(int[] vector, int LongitudActual) {
             int i;
             int posicion = 1;
             
@@ -30,7 +30,7 @@ public class Prueba {
             System.out.println("}");
         }
     
-    public void borrar(int[] vector) {
+    public void borrar(int[] vector, int LongitudActual) {
         int posicion = 1, i;
         //mostramos su contenido
         
@@ -57,7 +57,7 @@ public class Prueba {
         System.out.println("}");
     }
 
-    public void insertar(int[] vector) {
+    public void insertar(int[] vector, int LongitudActual) {
         int posicion = 1, i;
         //mostramos su contenido
         
