@@ -1,13 +1,7 @@
 package refactorizacion;
 
-public class CambiaLongitud {
+public class CambiaLongitud extends Vector {
 
-    /**
-     * @return the valor
-     */
-    public int getValor() {
-        return valor;
-    }
 
     /**
      * @param valor the valor to set
@@ -89,14 +83,6 @@ public class CambiaLongitud {
         Visualizar(i, longitud, vector);
     }
 
-    public void Visualizar(int i, final int longitud, int[] vector) {
-        //Mostramos los elementos del array
-        System.out.print("v={");
-        for (i = 0; i < longitud; i++) {
-            System.out.print(vector[i] + ",");
-        }
-        System.out.println("}");
-    }
 
     
 
